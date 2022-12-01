@@ -1,11 +1,40 @@
 /* Give your page a fun background color */
-
+body {background-color: #E8D7FF;}
 /* Make the header and footer a different color from the background */
-
+header {
+    background: #c786e6;
+    color: #caff6d;
 /* Align the h1 containing your name in the center of the header*/
+    text-align: center;
+    padding: 40px; 
+}
+footer {
+    background-color:#caff6d;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 /* Make your p tag a different color and italic */
-
+p {
+    color: #642faf;
+    font-style: italic;
+    text-align: center; 
+    font-size: 20px;
+}
 /* Put a border around your image */
+img {
+    border: 10px solid transparent;
+    border-image: url(https://img.freepik.com/premium-vector/seamless-banner-with-green-chevron_197792-4402.jpg?w=1380) 30 round; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 
+}
 /* Change the font-family of your list */
+ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #642faf;
+    margin: 40px;
+}
